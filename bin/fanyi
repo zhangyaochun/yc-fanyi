@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-//use colorful's toxic mix string object
-require('colorful').toxic();
 
 //read process.argv
 if (!process.argv[2]) {

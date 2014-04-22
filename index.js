@@ -7,6 +7,9 @@ var request = require('request');
 
 var URLS =  require('./lib/urls.json'); 
 
+//use colorful's toxic mix string object
+require('colorful').toxic();
+
 var print = require('./lib/print');
 
 //fanyi
@@ -21,6 +24,7 @@ exports.fanyi = function (word) {
             //TODO check if decode?
             var data = JSON.parse(body);
 
+            print.youdao(data);
         }
     });
 };
