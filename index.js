@@ -7,6 +7,8 @@ var request = require('request');
 
 var URLS =  require('./lib/urls.json'); 
 
+var print = require('./lib/print');
+
 //fanyi
 exports.fanyi = function (word) {
     //say word only in mac
