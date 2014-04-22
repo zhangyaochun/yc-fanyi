@@ -1,0 +1,30 @@
+{
+  "name": "yc-fanyi",
+  "version": "0.0.2",
+  "description": "this is fanyi tool for yc",
+  "main": "index.js",
+  "bin": {
+    "fanyi": "./bin/fanyi"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhangyaochun/yc-fanyi.git"
+  },
+  "keywords": [
+    "yc",
+    "fanyi",
+    "tool"
+  ],
+  "dependencies": {
+    "request" : "2.34.0",
+    "colorful" : "2.1.0"
+  },
+  "author": "zhangyaochun",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/zhangyaochun/yc-fanyi/issues"
+  }
+}
