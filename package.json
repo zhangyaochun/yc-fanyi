@@ -1,6 +1,6 @@
 {
   "name": "yc-fanyi",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "this is fanyi tool for yc",
   "main": "index.js",
   "bin": {
