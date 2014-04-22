@@ -7,7 +7,7 @@ require('colorful').toxic();
 if (!process.argv[2]) {
   console.log('yc fanyi ~ ' + require('../package.json').version.green);
 
-  console.log('It is a yc fanyi tool in command line'.grey);
+  console.log('It is a fanyi tool in yc lib for command line'.grey);
   
   console.log('  $ '.cyan + 'fanyi someword');
 
