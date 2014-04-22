@@ -1,3 +1,4 @@
 {
-  "youdao" : "http://fanyi.youdao.com/openapi.do?keyfrom=fanyi-node&key=593554388&type=data&doctype=json&version=1.1&q="
+  "youdao" : "http://fanyi.youdao.com/openapi.do?keyfrom=fanyi-node&key=593554388&type=data&doctype=json&version=1.1&q=",
+  "baidu" : "http://openapi.baidu.com/public/2.0/bmt/translate?client_id=OdmAV6CtBHVA3xUrNTE8TwMl&from=auto&to=auto&q="
 }

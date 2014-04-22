@@ -27,4 +27,14 @@ exports.fanyi = function (word) {
             print.youdao(data);
         }
     });
+
+
+    request.get(URLS['baidu'] + encodeURIComponent(word), function(error, response, body) {
+        if (!error && response.statusCode == 200) {
+            //TODO check if decode?
+            var data = JSON.parse(body);
+
+            print.baidu(data);
+        }
+    });
 };
